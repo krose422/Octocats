@@ -3,15 +3,22 @@ img {
 }
 
 .octocat img {
-	width: 400px;
-	length: 400px;
+	width: 352px;
+	length: 352px;
 	border-radius: 5px;
+
 }
 
 .authors img {
 	width: 25px;
 	height: 25px;
 	border: none;
+}
+
+.authors {
+	display: inline;
+	float: right;
+	padding: 4px;
 }
 
 ul {
@@ -41,12 +48,10 @@ a {
 
 .octocat {
 	float: left;
-}
-
-.image-footer {
-	bottom: 100%;
+	margin: 10px;
 }
 
 .image-caption {
 	display: inline;
+	float: right;
 }
