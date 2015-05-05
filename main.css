@@ -1,5 +1,5 @@
 img {
-	border: 1px solid gray;
+	border: 1px solid #CFCFCF;
 }
 
 .octocat img {
@@ -11,22 +11,23 @@ img {
 .authors img {
 	width: 25px;
 	height: 25px;
+	border: none;
 }
 
 ul {
-list-style: none;
+	list-style: none;
 }
 
 .image-caption {
 	font-family: Tahoma, sans-serif;
 	font-weight: bold;
-	color: gray;
+	color: #CFCFCF;
 }
 
 .image-number {
 	font-family: Tahoma, sans-serif;
 	font-weight: bold;
-	color: gray;
+	color: #CFCFCF;
 }
 
 .image-number:before {
@@ -36,4 +37,16 @@ list-style: none;
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.octocat {
+	float: left;
+}
+
+.image-footer {
+	bottom: 100%;
+}
+
+.image-caption {
+	display: inline;
 }
